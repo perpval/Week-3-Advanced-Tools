@@ -88,16 +88,24 @@
   }
   @media(max-width: 650px){
     h1,h2,h3{
-      font-size: 20px;
+      font-size: 25px;
       text-align: center;
+      line-height:  1.8;
     }
     .primary-link{
       font-size: 15px;
       display: flex;
+      justify-content: center;
+
     
     }
     p{
-      display: flex;
+      text-align: center;
+      margin: auto;
+
+    }
+    .img-fluid{
+      margin: auto;
     }
 
   }
